@@ -13,7 +13,7 @@ import os
 
 #estabelecer comunicação com site da whatsapp
 webbrowser.open('https://web.whatsapp.com/')
-sleep(30)
+sleep(10)
 
 #Ler documento salvo com os nomes e numeros dos contatos
 workbook = openpyxl.load_workbook('number_cel.xlsx')
@@ -24,7 +24,7 @@ for linha in pagina_clientes.iter_rows(min_row= 2):
 
     nome = linha[0].value
     telefone = linha[1].value
-    mensagem = f'Ola {nome} estamos testando nosso boot {telefone} chama na www.ks6tv.com'
+    mensagem = f'Ola {nome} se inscreva no canal ou morre na primeira esquina{telefone} https://www.youtube.com/@kirabeatz5400'
    
     #Criar link customizado pelo proprio python e enviar a mensagem de acordo com o documento 
     #criando uma estrutura de ero onde foi usado um documento csv(com vigula) para salvamento de erros durante o envio das mensagens 
