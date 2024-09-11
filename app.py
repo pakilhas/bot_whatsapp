@@ -24,7 +24,7 @@ for linha in pagina_clientes.iter_rows(min_row= 2):
 
     nome = linha[0].value
     telefone = linha[1].value
-    mensagem = f'Ola {nome} se inscreva no canal ou morre na primeira esquina{telefone} https://www.youtube.com/@kirabeatz5400'
+    mensagem = f'Ola {nome} meu pix parceiro {telefone} ta maluco'
    
     #Criar link customizado pelo proprio python e enviar a mensagem de acordo com o documento 
     #criando uma estrutura de ero onde foi usado um documento csv(com vigula) para salvamento de erros durante o envio das mensagens 
